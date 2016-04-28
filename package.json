@@ -1,0 +1,30 @@
+{
+  "name": "htmlstock",
+  "version": "0.1.0",
+  "description": "A class based on NodeList/HTMLCollection classes that proxies some Element methods like addEventListener, remove, classList",
+  "main": "./src/html-stock.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.spec.js",
+    "build": "npm test && ./node_modules/uglify-js/bin/uglifyjs ./src/html-stock.js --output=./dist/html-stock.min.js --compress --mangle --reserved=HTMLStock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovislima/htmlstock.git"
+  },
+  "keywords": [
+    "NodeList",
+    "HTMLCollection"
+  ],
+  "author": "Clovis Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clovislima/htmlstock/issues"
+  },
+  "homepage": "https://github.com/clovislima/htmlstock#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^8.4.0",
+    "mocha": "^2.4.5",
+    "uglify": "^0.1.5"
+  }
+}
