@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/clovislima/htmlstock.svg?branch=master)](https://travis-ci.org/clovislima/htmlstock)
 # HTMLStock
 A class based on NodeList/HTMLCollection classes that proxies some Element methods like addEventListener, remove, classList 
 
