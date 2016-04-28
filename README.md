@@ -45,7 +45,7 @@ The following methods/properties are skins of their counterparts that return a H
 ### Other Methods/Properties
 * Node.prototype._parents
 	* Gather all parent tags before the HTML tag in a HTMLStock
-* Object._extend
+* Object._assign
 	* return a new Object with the value of all objects passed as arguments reducing to the left 
-* Object._extendRight
+* Object._assignRight
 	* return a new Object with the value of all objects passed as arguments reducing to the right
