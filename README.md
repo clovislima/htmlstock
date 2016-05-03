@@ -491,12 +491,17 @@ A querySelectorAll alias that returns a HTMLStock instead of NodeList
 ## Node
 **Kind**: global class  
 **Access:** public  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Node.prototype._children | <code>[HTMLStock](#HTMLStock)</code> | A children alias that returns a HTMLStock instead of HTMLCollection |
+| Node.prototype._childNodes | <code>[HTMLStock](#HTMLStock)</code> | A childNodes alias that returns a HTMLStock instead of HTMLCollection |
+
 
 * [Node](#Node)
     * [new Node()](#new_Node_new)
     * [._parents()](#Node++_parents) ⇒
-    * [._children()](#Node++_children) ⇒
-    * [._childNodes()](#Node++_childNodes) ⇒
 
 <a name="new_Node_new"></a>
 
@@ -513,36 +518,23 @@ Returns all parentNodes from an Element until it reaches the HTMLBodyElement
 **this**: <code>HTMLElement</code>  
 **Access:** public  
 **Since**: 0.1.0  
-<a name="Node++_children"></a>
-
-### node._children() ⇒
-A children alias that returns a HTMLStock instead of HTMLCollection
-
-**Kind**: instance method of <code>[Node](#Node)</code>  
-**Returns**: HTMLStock  
-**Access:** public  
-**Since**: 0.1.0  
-<a name="Node++_childNodes"></a>
-
-### node._childNodes() ⇒
-A childNodes alias that returns a HTMLStock instead of HTMLCollection
-
-**Kind**: instance method of <code>[Node](#Node)</code>  
-**Returns**: HTMLStock  
-**Access:** public  
-**Since**: 0.1.0  
 <a name="HTMLDocument"></a>
 
 ## HTMLDocument
 **Kind**: global class  
 **Access:** public  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| HTMLDocument.prototype._children | <code>[HTMLStock](#HTMLStock)</code> | A children alias that returns a HTMLStock instead of HTMLCollection |
+| HTMLDocument.prototype._childNodes | <code>[HTMLStock](#HTMLStock)</code> | A childNodes alias that returns a HTMLStock instead of HTMLCollection |
+
 
 * [HTMLDocument](#HTMLDocument)
     * [new HTMLDocument()](#new_HTMLDocument_new)
     * [._querySelectorAll()](#HTMLDocument++_querySelectorAll) ⇒
     * [._findAll()](#HTMLDocument++_findAll) ⇒
-    * [._children()](#HTMLDocument++_children) ⇒
-    * [._childNodes()](#HTMLDocument++_childNodes) ⇒
 
 <a name="new_HTMLDocument_new"></a>
 
@@ -562,24 +554,6 @@ A querySelectorAll alias that returns a HTMLStock instead of NodeList
 
 ### htmlDocument._findAll() ⇒
 A querySelectorAll alias that returns a HTMLStock instead of NodeList
-
-**Kind**: instance method of <code>[HTMLDocument](#HTMLDocument)</code>  
-**Returns**: HTMLStock  
-**Access:** public  
-**Since**: 0.1.0  
-<a name="HTMLDocument++_children"></a>
-
-### htmlDocument._children() ⇒
-A children alias that returns a HTMLStock instead of HTMLCollection
-
-**Kind**: instance method of <code>[HTMLDocument](#HTMLDocument)</code>  
-**Returns**: HTMLStock  
-**Access:** public  
-**Since**: 0.1.0  
-<a name="HTMLDocument++_childNodes"></a>
-
-### htmlDocument._childNodes() ⇒
-A childNodes alias that returns a HTMLStock instead of HTMLCollection
 
 **Kind**: instance method of <code>[HTMLDocument](#HTMLDocument)</code>  
 **Returns**: HTMLStock  

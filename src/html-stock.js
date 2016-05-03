@@ -40,10 +40,8 @@
 		}
 
 		/**
-		 * HTMLStock._classList an instance of HTMLStockClassList
-		 * @property HTMLStock#_classList
+		 * @property {HTMLStockClassList} HTMLStock._classList HTMLStock._classList an instance of HTMLStockClassList
 		 * @public
-		 * @return HTMLStockClassList
 		 * @since 0.1.0
 		 */
 		Object.defineProperty(this, '_classList', {
@@ -528,26 +526,16 @@
 					 * A Node is an interface from which a number of DOM types inherit, and allows these various types to be treated (or tested) similarly.
 					 * @class Node
 					 * @public
-					 */
-					/**
-					 * A children alias that returns a HTMLStock instead of HTMLCollection
-					 * @function Node.prototype#_children
-					 * @public
-					 * @return HTMLStock
-					 * @since 0.1.0
-					 */
-					/**
-					 * A childNodes alias that returns a HTMLStock instead of HTMLCollection
-					 * @function Node.prototype#_childNodes
-					 * @public
-					 * @return HTMLStock
-					 * @since 0.1.0
+					 * @property {HTMLStock} Node.prototype._children - A children alias that returns a HTMLStock instead of HTMLCollection
+					 * @property {HTMLStock} Node.prototype._childNodes - A childNodes alias that returns a HTMLStock instead of HTMLCollection
 					 */
 
 					/**
 					 * HTMLDocument is an abstract interface of the DOM which provides access to special properties and methods not present by default on a regular (XML) document.
 					 * @class HTMLDocument
 					 * @public
+					 * @property {HTMLStock} HTMLDocument.prototype._children - A children alias that returns a HTMLStock instead of HTMLCollection
+					 * @property {HTMLStock} HTMLDocument.prototype._childNodes - A childNodes alias that returns a HTMLStock instead of HTMLCollection
 					 */
 					/**
 					 * A querySelectorAll alias that returns a HTMLStock instead of NodeList
@@ -559,20 +547,6 @@
 					/**
 					 * A querySelectorAll alias that returns a HTMLStock instead of NodeList
 					 * @function HTMLDocument.prototype#_findAll
-					 * @public
-					 * @return HTMLStock
-					 * @since 0.1.0
-					 */
-					/**
-					 * A children alias that returns a HTMLStock instead of HTMLCollection
-					 * @function HTMLDocument.prototype#_children
-					 * @public
-					 * @return HTMLStock
-					 * @since 0.1.0
-					 */
-					/**
-					 * A childNodes alias that returns a HTMLStock instead of HTMLCollection
-					 * @function HTMLDocument.prototype#_childNodes
 					 * @public
 					 * @return HTMLStock
 					 * @since 0.1.0
